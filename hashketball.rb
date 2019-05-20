@@ -156,5 +156,5 @@ end
 
 
 def team_name
-  game_hash[:team_name]
+  puts game_hash[:team_name]
 end
