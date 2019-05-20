@@ -164,5 +164,6 @@ end
 end
 
 def team_names
+  team = team_names
 
 end
