@@ -124,8 +124,8 @@ end
 
 
 def num_points_scored(name)
-  game_hash.each do |k,v|
-  
+  game_hash.each do |location,data|
+
 binding.pry
   end
 end
