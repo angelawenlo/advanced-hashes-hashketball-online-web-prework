@@ -161,5 +161,4 @@ def team_names
   team_name << team_info[:team_name]
   end
   team_name
-  binding.pry
 end
