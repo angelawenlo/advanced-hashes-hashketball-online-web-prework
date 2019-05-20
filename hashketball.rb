@@ -151,3 +151,5 @@ game_hash.each do |location, team_info|
 
   binding.pry
 end
+end
+end
