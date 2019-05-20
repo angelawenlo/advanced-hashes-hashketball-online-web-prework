@@ -158,5 +158,6 @@ end
 def team_names
   team_name = []
   team_name << game_hash[:team_name]
+  binding.pry
   team_name.join(", ")
 end
