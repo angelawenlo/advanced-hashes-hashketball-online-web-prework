@@ -156,6 +156,8 @@ end
 
 def team_names
 
+end
+
 def team_name(team)
   game_hash.each do |location, team_info|
     team_info[:team_name]
