@@ -147,7 +147,7 @@ end
 def team_colors(team)
 game_hash.each do |location, team_info|
   team_info.each do |player_name, stats|
-    if
+  
 
   binding.pry
 end
