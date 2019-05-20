@@ -159,6 +159,6 @@ def team_names
   team_name = []
   game_hash.each do |location, team_info|
   team_name << team_info[:team_name]
-  team_name.join(", ")
+  team_name
 end
 end
