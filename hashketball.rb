@@ -160,6 +160,8 @@ def teams
   team_info.each do|team, team_name|
     puts team
     binding.pry
+  end
+end
 end
 
 
