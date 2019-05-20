@@ -157,7 +157,7 @@ end
 
 def team_name
   game_hash.each do |location, team_info|
-    return team_info[:team_name]
+    team_info[:team_name]
     binding.pry
   end
 end
