@@ -157,7 +157,7 @@ end
 def team_names
   game_hash.each do |location, team_info|
     team_info[:players].each do |player_names, stats|
-    puts player_names
+    return player_names
     end
   end
 end
