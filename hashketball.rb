@@ -159,5 +159,5 @@ def team_names
   team_info.each do|team, team_name|
     return team_info[:team_name]
   end
-end.flatten
+end
 end
