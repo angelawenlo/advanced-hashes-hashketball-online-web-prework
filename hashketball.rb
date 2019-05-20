@@ -158,13 +158,11 @@ end
 def teams
   game_hash.each do |location, team_info|
   team_info.each do |team, team_name|
-    binding.pry
+    if tea
   end
 end
 end
 
 def team_names
-  if team = team_names
-    puts team.flatten
-  end
+  
 end
