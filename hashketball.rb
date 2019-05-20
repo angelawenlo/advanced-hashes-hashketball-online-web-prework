@@ -156,7 +156,7 @@ end
 
 def team_names
   game_hash.each do |location, team_info|
-    
+    binding.pry
 end
 
 def team_name(team)
