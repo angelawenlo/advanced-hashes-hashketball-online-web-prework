@@ -164,6 +164,3 @@ def teams
   end
 end
 end
-
-
-
