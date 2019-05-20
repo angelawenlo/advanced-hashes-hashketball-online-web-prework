@@ -160,7 +160,6 @@ def teams
   team_info.each do |team, team_name|
     if team_info.include?(:team_name)
       return game_hash[:team_name]
-      binding.pry
     end
   end
 end
