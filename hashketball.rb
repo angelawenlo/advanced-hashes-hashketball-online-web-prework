@@ -159,4 +159,5 @@ def team_names
   team_info.each do|teams|
     binding.pry
   end
+  end
 end
