@@ -125,7 +125,7 @@ end
 
 def num_points_scored(name)
   game_hash
-  name.each do |k,v|
+  game_hash.each do |k,v|
     if
 binding.pry
   end
