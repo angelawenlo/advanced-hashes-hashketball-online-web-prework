@@ -149,8 +149,6 @@ def team_colors(team)
     team_info.each do |team_colors, detail|
       if detail == team
         return detail[:colors]
-
-  binding.pry
       end
     end
   end
