@@ -158,11 +158,11 @@ end
 def teams
   game_hash.each do |location, team_info|
   team_info.each do |team, team_name|
-    if tea
+    if team_info.include?(:team_name)
   end
 end
 end
 
 def team_names
-  
+
 end
