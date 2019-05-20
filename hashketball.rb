@@ -163,6 +163,7 @@ def team_names
 end
 
 def team_name(team)
+    binding.pry
   if team == team_names
 
   end
