@@ -155,16 +155,6 @@ def team_colors(team)
 end
 
 
-def teams
-  game_hash.each do |location, team_info|
-  team_info.each do |team, team_name|
-    if team_info.include?(:team_name)
-      return game_hash[:team_name]
-    end
-  end
-end
-end
-
 def team_names
-
+  game_hash[:team_names].flatten
 end
