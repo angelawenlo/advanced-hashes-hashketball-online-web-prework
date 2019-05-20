@@ -159,7 +159,6 @@ def teams
   game_hash.each do |location, team_info|
   team_info.each do |team, team_name|
     binding.pry
-    puts team
   end
 end
 end
