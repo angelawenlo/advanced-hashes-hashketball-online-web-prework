@@ -156,6 +156,6 @@ end
 
 def team_names
   game_hash.each do |location, team_info|
-    return team_info[:team_names]
+    return team_info[:team_names].flatten
   end
 end
