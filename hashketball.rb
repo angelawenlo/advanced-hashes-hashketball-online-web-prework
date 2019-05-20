@@ -123,6 +123,3 @@ def game_hash
 end
 
 
-    :away
-  }
-end
