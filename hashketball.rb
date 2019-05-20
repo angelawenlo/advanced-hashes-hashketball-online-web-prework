@@ -124,7 +124,7 @@ end
 
 
 def num_points_scored(name)
-name.map do |k,v|
+  name.map do |k,v|
 binding.pry
-end
+  end
 end
