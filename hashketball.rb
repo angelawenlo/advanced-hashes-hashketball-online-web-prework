@@ -150,7 +150,7 @@ def team_colors(team)
       if detail == team
 
   binding.pry
-end
+      end
     end
   end
 end
