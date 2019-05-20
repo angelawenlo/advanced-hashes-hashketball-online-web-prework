@@ -162,4 +162,3 @@ def team_names
   end
   team_name
 end
-end
