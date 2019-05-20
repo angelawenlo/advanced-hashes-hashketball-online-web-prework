@@ -156,5 +156,5 @@ end
 
 
 def team_names
-  puts game_hash[:team_name]
+  puts game_hash[:team_name].flatten
 end
