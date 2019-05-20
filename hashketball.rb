@@ -159,7 +159,8 @@ def team_names
     team_info[:player].each do |player_names, stats|
     binding.pry
 end
-
+end
+end
 def team_name(team)
 
   end
