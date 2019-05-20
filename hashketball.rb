@@ -159,9 +159,6 @@ def team_names
   team_name = []
   game_hash.map do |location, team_info|
   team_name << team_info[:team_name]
-  end
-  team_name
-  binding.pry
 end
 
 def player_numbers(team_name)
