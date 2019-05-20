@@ -164,5 +164,4 @@ end
 
 def team_name(team)
 
-  end
 end
