@@ -221,18 +221,3 @@ def most_points_scored
     end
   end
 end
-
-def team_score
-  game_hash.map do |location, team_info|
-    team_info.map do |name, stats|
-        binding.pry
-      if stats.include?
-
-    end
-end
-end
-end
-
-def winning_team
-  team_score
-end
