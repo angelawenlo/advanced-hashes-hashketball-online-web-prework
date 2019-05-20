@@ -165,5 +165,6 @@ end
 
 def team_names
   if team = team_names
+    puts team.flatten
 
 end
