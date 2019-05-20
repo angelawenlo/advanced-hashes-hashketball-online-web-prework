@@ -165,7 +165,6 @@ def team_names
 end
 
 def player_numbers(team_name)
-  game_hash.each do
 
 
 
